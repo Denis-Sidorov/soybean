@@ -8,18 +8,53 @@
 
     <link rel="stylesheet" href="styles/libs/bootstrap.min.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/large.css">
 </head>
 <body>
-    <header>
-        <div class="container-fluid bg-light">
+    <header class="container-fluid bg-light ">
+        <nav class="navbar navbar-expand-lg navbar-light align-items-center">
+            <a href="#" class="navbar-brand header__logo"><img src="images/soybean-logo.png" alt="СК-Агро"></a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse header__menu mt-2 ml-2" id="navbarMenu">
+                <ul class="navbar-nav justify-content-between ml-auto">
+                    <li class="nav-item"><a href="#" class="nav-link text-uppercase">О нас</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-uppercase">Каталог</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-uppercase">Оборудование</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-uppercase">Лаборатория</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-uppercase">Контракты</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <header class="container-fluid bg-light d-flex align-items-center">
+        <!-- <a href="#" class="navbar-brand header__logo"><img src="images/soybean-logo.png" alt="СК-Агро"></a>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse header__menu align-self-end" id="navbarMenu">
+                <ul class="navbar-nav justify-content-between w-100">
+                    <li class="nav-item"><a href="#" class="nav-link text-uppercase">О нас</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-uppercase">Каталог</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-uppercase">Оборудование</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-uppercase">Лаборатория</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-uppercase">Контракты</a></li>
+                </ul>
+            </div>
+        </nav> -->
+
+        <!-- <div class="container-fluid bg-light header">
             <div class="row">
-                <!-- <div class="col-lg-1" style="margin-left: 10%;"> -->
-                <div class="col col-lg-2 ml-auto">
+                <div class="col col-lg-1 header__logo-col">
                     <a href="#" class="navbar-brand"><img src="images/soybean-logo.png" alt="СК-Агро"></a>
                 </div>
-                <div class="col col-lg-7 ml-auto">
-                    <nav class="navbar navbar-expand-lg navbar-light">
-                        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+                <div class="col col-lg-7 ml-auto d-flex align-items-center header__menu-col">
+                    <nav class="navbar navbar-expand-lg navbar-light w-100">
+                        <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navbarMenu">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarMenu">
@@ -34,7 +69,7 @@
                     </nav>
                 </div>
             </div>
-        </div>
+        </div> -->
     </header>
 
     <main>

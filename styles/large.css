@@ -1,0 +1,23 @@
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .header__logo-col {
+        margin-left: 10%;
+    }
+
+    .header__menu-col {
+        margin-right: 10%;
+    }
+
+    .header__logo {
+        margin-left: 10%;
+    }
+
+    .header__menu {
+        margin-right: 10%;
+    }
+
+    .header__menu ul {
+        width: 90%; 
+        max-width: 960px;
+    }
+}
