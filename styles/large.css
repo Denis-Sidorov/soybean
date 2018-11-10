@@ -12,4 +12,9 @@
         width: 90%; 
         max-width: 960px;
     }
+
+    .intro__content {
+        margin-left: 10rem;
+        margin-top: 6rem;
+    }
 }
