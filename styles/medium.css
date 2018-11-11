@@ -1,6 +1,14 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+    h2 {
+        font-size: 2rem;
+    }
+    
     .intro__content p {
         font-size: 2rem;
+    }
+
+    .about {
+        font-size: 1.5rem;
     }
 }
