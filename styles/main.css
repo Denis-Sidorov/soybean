@@ -184,9 +184,40 @@ h2 {
     height: 434px;
 }
 
-.catalog__item p {
-    text-align: center;
+.catalog__overlay {
+    position: absolute;
     z-index: 1;
+
+    height: 307px;
+    width: 307px;
+
+    background-color: #000;
+    opacity: 0.5;
+
+    transform: rotate(45deg);
+}
+
+.catalog__overlay:hover {
+    cursor: pointer;
+    opacity: 0.1;
+}
+
+.catalog__item p:hover + .catalog__overlay {
+    opacity: 0.1;
+}
+
+.catalog__item p {
+    z-index: 2;
+    max-width: 200px;
+
+    text-align: center;
+    letter-spacing: 0.035em;
+    line-height: 1;
+    font-size: 1.1rem;
+    color: #FFF;
+    text-transform: uppercase;
+
+    cursor: pointer;
 }
 
 /* CATALOG END */
