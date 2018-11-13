@@ -17,4 +17,62 @@
         margin-left: 10rem;
         margin-top: 6rem;
     }
+
+    /* CATALOG BEGIN */
+
+    .catalog {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .catalog__wrapper {
+        /* catalog__item * 3 */
+        width: 1302px;
+
+        justify-content: center;
+        margin-left: 0;
+
+        background-image: url('/images/catalog-chiken-lg.png');
+        background-repeat: no-repeat;
+        background-size: 34%;
+        background-position-x: 162px;
+        background-position-y: -3px;
+    }
+    
+    .catalog__items {
+        /* catalog__item * 2 + catalog__item / 2*/
+        height: 1100px;
+    }
+    
+    .catalog__item {
+        width: 434px;
+        height: 434px;
+    }
+    
+    .catalog__item_indent {
+        /* catalog__item / 2 */
+        margin-top: 217px;
+    }
+    
+    .catalog__item_pulled {
+        /* ~ 80% catalog__item_indent */
+        margin-left: -170px;
+    }
+    
+    .catalog__item img {
+        width: 434px;
+        height: 434px;
+    }
+    
+    .catalog__overlay {
+        height: 307px;
+        width: 307px;
+    }
+    
+    .catalog__item p {
+        font-size: 1.1rem;
+    }
+
+    /* CATALOG END */
 }

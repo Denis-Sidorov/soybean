@@ -133,20 +133,13 @@ h2 {
 /* CATALOG BEGIN */
 
 .catalog {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    overflow-x: hidden; 
 }
 
 .catalog__wrapper {
-    width: 1302px;
     display: flex;
     justify-content: center;
-    background-image: url('/images/catalog-chiken-lg.png');
-    background-repeat: no-repeat;
-    background-size: 34%;
-    background-position-x: 162px;
-    background-position-y: -3px;
+    margin-left: -130px;
 }
 
 .catalog__items {
@@ -156,12 +149,12 @@ h2 {
     flex-wrap: wrap;
     
     /* catalog__item * 2 + catalog__item / 2*/
-    height: 1100px;
+    height: 750px;
 }
 
 .catalog__item {
-    width: 434px;
-    height: 434px;
+    width: 250px;
+    height: 250px;
 
     display: flex;
     align-items: center;
@@ -170,26 +163,26 @@ h2 {
 
 .catalog__item_indent {
     /* catalog__item / 2 */
-    margin-top: 217px;
+    margin-top: 125px;
 }
 
 .catalog__item_pulled {
     /* ~ 80% catalog__item_indent */
-    margin-left: -170px;
+    margin-left: -119px;
 }
 
 .catalog__item img {
     position: absolute;
-    width: 434px;
-    height: 434px;
+    width: 250px;
+    height: 250px;
 }
 
 .catalog__overlay {
     position: absolute;
     z-index: 1;
 
-    height: 307px;
-    width: 307px;
+    height: 177px;
+    width: 177px;
 
     background-color: #000;
     opacity: 0.5;
@@ -209,11 +202,12 @@ h2 {
 .catalog__item p {
     z-index: 2;
     max-width: 200px;
+    margin: 0;
 
     text-align: center;
     letter-spacing: 0.035em;
     line-height: 1;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #FFF;
     text-transform: uppercase;
 
