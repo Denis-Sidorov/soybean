@@ -19,6 +19,12 @@ h2 {
     margin-bottom: 0;
 }
 
+h3 {
+    font-size: 1.4rem;
+    color: #303030;
+    text-align: center;
+}
+
 /* BUTTON BEGIN */
 
 .btn-green {
@@ -215,3 +221,55 @@ h2 {
 }
 
 /* CATALOG END */
+
+/* CALLBACK BEGIN */
+
+.callback {
+    margin: 5em 0;
+    background-image: url('/images/callback-background.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    height: 632px;
+}
+
+.callback__container {
+    position: relative;
+    top: -30px;
+
+    max-width: 958px;
+    height: 692px;
+    margin: 0 auto;
+
+    font-size: 1.5rem;
+    padding: 2em 1rem;
+
+    background-color: #E5E5E5;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.callback__form {
+    display: flex;
+    flex-direction: column;
+    max-width: 532px;
+    margin: 0 auto;
+}
+
+.callback label {
+    font-size: 1.1rem;
+    margin: 1em 0 0.1em;
+    letter-spacing: 0.035em;
+}
+
+.callback textarea {
+    height: 168px;
+}
+
+.callback__btn_send {
+    width: 263px;
+    height: 67px;
+    align-self: flex-end;
+    margin-top: 2em;
+}
+
+/* CALLBACK END */
