@@ -75,4 +75,49 @@
     }
 
     /* CATALOG END */
+
+    /* CALLBACK BEGIN */
+
+    .callback {
+        background-image: url('../images/callback-background.png');
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: cover;
+        height: 632px;
+    }
+
+    .callback__container {
+        position: relative;
+        top: -30px;
+
+        max-width: 958px;
+        /* callback.height + callback__container.top * (-2) */
+        height: 692px;
+        margin: 0 auto;
+
+        font-size: 1.5rem;
+
+        background-color: #E5E5E5;
+        color: #000000;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .callback__container h3 {
+        color: #000000;
+    }
+
+    .callback__form {
+        max-width: 532px;
+        margin: 0 auto;
+    }
+
+    .callback label {
+        font-size: 1.1rem;
+    }
+
+    .callback__btn_send {
+        font-size: 1.3rem;
+    }
+
+    /* CALLBACK END */
 }

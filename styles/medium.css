@@ -11,4 +11,8 @@
     .about {
         font-size: 1.5rem;
     }
+
+    .callback__container {
+        font-size: 1.1rem;
+    }
 }
