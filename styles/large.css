@@ -120,4 +120,18 @@
     }
 
     /* CALLBACK END */
+
+    .map {
+        margin-top: 8em;
+    }
+
+    .footer {
+        font-size: 1.3rem;
+        padding-top: 3em;
+    }
+
+    .footer__nav li {
+        margin-top: 0.9em;
+    }
+
 }

@@ -139,7 +139,7 @@ h3 {
 /* CATALOG BEGIN */
 
 .catalog {
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 .catalog__wrapper {
@@ -262,3 +262,80 @@ h3 {
 }
 
 /* CALLBACK END */
+
+/* MAP BEGIN */
+
+.map {
+    height: 507px;
+}
+
+.map iframe {
+    width: 100% !important;
+}
+
+/* MAP END */
+
+/* FOOTER BEGIN */
+
+.footer {
+    background-image: url("/images/footer-background.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    position: relative;
+
+    color: #FFFFFF;
+    font-size: 1rem;
+    padding: 1em 1rem;
+}
+
+.footer:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    opacity: 0.65;
+    z-index: 1;
+}
+
+.footer__content {
+    position: relative;
+    z-index: 2;
+
+    max-width: 1400px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__nav li {
+    margin-top: 1em;
+}
+
+.footer__nav a {
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.footer__contacts {
+    text-align: right;
+    line-height: 1.5rem;
+}
+
+.footer__contacts p {
+    margin-top: 1em;
+}
+
+.footer__copyright {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+/* FOOTER END */
