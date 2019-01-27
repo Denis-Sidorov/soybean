@@ -339,3 +339,31 @@ h3 {
 }
 
 /* FOOTER END */
+
+/* PRODUCTION GALLERY BEGIN */
+
+.production {
+    margin: 1em 1rem;
+}
+
+.gallery {
+    margin: 0 auto;
+    max-width: 1280px;
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, auto);
+    grid-gap: 1rem;
+}
+
+.gallery__item {
+    margin: 0;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* PRODUCTION GALLERY END */
