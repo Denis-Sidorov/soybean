@@ -1,5 +1,9 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+    .intro__video video {
+        background-image: url("/images/intro/soybean-harvest-S.jpg");
+    }
+
     .about {
         padding-left: 2rem;
         padding-right: 2rem;

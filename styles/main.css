@@ -78,6 +78,12 @@ h3 {
     min-width: 100%;
     min-height: 100%;
     margin: 0 auto;
+
+    background-image: url("/images/intro/soybean-harvest-XS.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: left;
 }
 
 .intro__overlay {

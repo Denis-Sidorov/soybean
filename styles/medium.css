@@ -8,6 +8,10 @@
         font-size: 2rem;
     }
 
+    .intro__video video {
+        background-image: url("/images/intro/soybean-harvest-M.jpg");
+    }
+
     .about {
         font-size: 1.5rem;
     }

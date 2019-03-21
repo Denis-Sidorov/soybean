@@ -18,6 +18,10 @@
         margin-top: 6rem;
     }
 
+    .intro__video video {
+        background-image: url("/images/intro/soybean-harvest-L.jpg");
+    }
+
     /* CATALOG BEGIN */
 
     .catalog {
